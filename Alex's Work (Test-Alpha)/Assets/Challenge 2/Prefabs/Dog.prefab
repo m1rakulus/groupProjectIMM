@@ -5329,7 +5329,6 @@ GameObject:
   - component: {fileID: 8241448879431697766}
   - component: {fileID: 353968393887968187}
   - component: {fileID: 3996529928490727175}
-  - component: {fileID: 224119021400182676}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Dog
@@ -5483,22 +5482,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &224119021400182676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241448880393145375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2061d75a1397def46b04ad8e5d7abaff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  AhealthBar: {fileID: 0}
-  rb: {fileID: 3996529928490727175}
 --- !u!1 &8241448880393145945
 GameObject:
   m_ObjectHideFlags: 0

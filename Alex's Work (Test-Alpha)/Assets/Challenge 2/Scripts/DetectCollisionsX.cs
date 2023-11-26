@@ -9,5 +9,8 @@ public class DetectCollisionsX : MonoBehaviour
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+
+        Debug.Log("Zombie hit!");
+            //TakeDamage(2);
     }
 }
